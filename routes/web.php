@@ -13,9 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('pages.home',['titolo' => 'Primo Progetto Laravel']);
 });
+
 Route::get('/articoli', function () {
     return view('pages.articoli');
 });
