@@ -1,36 +1,40 @@
-body{
+body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-background-image:url("https://lascuolafanotizia.it/wp-content/uploads/2021/10/coding_dtvakc-1566x783-1.jpg") ;
-background-position: center;
-object-fit: cover;
-}
-.navbar{
-  width: 100%;
-  height: 60px;
-  background-color:rgb(41, 41, 227);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 400px;
+  background-image: url("https://www.fastweb.it/var/storage_feeds/cms20/media/fwb_wbce_cms20_fwplus/1ff/1ffef3fab487508cf9d8405c70306c13/linguaggi%20programmazione%203.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
 }
 
-h1{
-  padding-top: 100px;
-  font-size: 80px;
-  color:white;
-  margin-top: 100px;
-  text-shadow: 3px 3px 3px black;
+#navlink {
+  font-size: 16px;
+  padding-left: 60px;
+}
+.nav-link{
+  color:black;
+  font-weight: 800;
 }
 
-.navlink{
-  list-style: none;
+#btnNav {
+  background-color: blue;
+  margin-top: 2px;
+  font-size: 16px;
+  font-weight: 800;
   color: white;
-  font-size: 20px;
- padding-left: 20px;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 80px;
+  color: rgb(255, 255, 0);
+  text-shadow: 8px 8px 8px black;
+  padding-top: 100px;
+}

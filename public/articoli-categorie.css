@@ -33,7 +33,7 @@ body{
 }
 .card{
   margin-top: 100px;
-  margin-left: 20px;
+  margin-left: 85px;
   background-color:rgb(44, 229, 235);
   color: blue;
   opacity: 0.7;
@@ -50,7 +50,7 @@ body{
 }
 .card:hover{
 transform: scale(1.08);
-opacity: 3;
+opacity: 2;
 }
 
 
