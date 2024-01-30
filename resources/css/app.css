@@ -3,3 +3,5 @@
 @import './contatti';
 @import './dettaglio';
 @import './articoli-categorie';
+
+@import 'bootstrap';
