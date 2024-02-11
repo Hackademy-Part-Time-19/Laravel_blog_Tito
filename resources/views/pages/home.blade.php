@@ -1,5 +1,7 @@
 <x-layout>
-    @vite(['resources/css/home.css'])
+    
+    @vite(['resources/css/home.css']);
+
     <x-slot:title>Home</x-slot>
     
 <header>

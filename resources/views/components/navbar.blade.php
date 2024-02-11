@@ -15,6 +15,9 @@
                 <a class="nav-link" href="{{ route('contacts') }}">Contatti</a>
               </li>
               <li id="navlink"  class="nav-item">
+                <a class="nav-link" href="{{ route('article.create') }}">Crea Articolo</a>
+              </li>
+              <li id="navlink"  class="nav-item">
                 <div class="dropdown">
                     <button id="btnNav" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Categorie
